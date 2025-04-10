@@ -3,10 +3,11 @@
     width: 200px;
 }
 .sidenav a{
-    color: #8c419e;
+    color: #000000;
 }
 .sidenav i{
     padding-right: 10px;
+    color: white;
 }
 
 .content{
