@@ -42,7 +42,6 @@ read(): Observable<Product[]>{
 
  const url = `${this.baseUrl}/${product.id}`
  return this.http.delete<Product>(url)
-
  }
 
 delete(id:number): Observable<Product>{
