@@ -14,13 +14,19 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { FooterComponent } from './component/template/footer/footer.component';
 import { HomeComponent } from './view/home/home.component';
-import {MatCardModule} from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
 import { ProductCrudComponent } from './view/product-crud/product-crud.component';
 import { ProductReadComponent } from './component/product/product-read/product-read.component';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HttpClientModule } from '@angular/common/http';
 import { FornecedorCrudComponent } from './view/fornecedor-crud/fornecedor-crud.component';
 import { FornecedorReadComponent } from './component/fornecedor/fornecedor-read/fornecedor-read.component';
+import { ProductCreateComponent } from './component/product/product-create/product-create.component';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
+import { FornecedorCreateComponent } from './component/fornecedor/fornecedor-create/fornecedor-create.component';
+import { FormaPagReadComponent } from './component/formaPag/forma-pag-read/forma-pag-read.component';
 
 
 @NgModule({
@@ -33,7 +39,10 @@ import { FornecedorReadComponent } from './component/fornecedor/fornecedor-read/
     ProductCrudComponent,
     ProductReadComponent,
     FornecedorCrudComponent,
-    FornecedorReadComponent
+    FornecedorReadComponent,
+    ProductCreateComponent,
+    FornecedorCreateComponent,
+    FormaPagReadComponent
     
   ],
   imports: [
@@ -45,7 +54,10 @@ import { FornecedorReadComponent } from './component/fornecedor/fornecedor-read/
     MatListModule,
     MatCardModule,
     MatSnackBarModule,
-    HttpClientModule
+    HttpClientModule,
+    MatFormFieldModule,
+    MatInputModule,
+    FormsModule
 
   ],
   providers: [],
