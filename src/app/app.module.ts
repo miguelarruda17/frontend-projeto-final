@@ -27,6 +27,7 @@ import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import { FornecedorCreateComponent } from './component/fornecedor/fornecedor-create/fornecedor-create.component';
 import { FormaPagReadComponent } from './component/formaPag/forma-pag-read/forma-pag-read.component';
+import { MatTableModule } from '@angular/material/table';
 
 
 @NgModule({
@@ -57,7 +58,8 @@ import { FormaPagReadComponent } from './component/formaPag/forma-pag-read/forma
     HttpClientModule,
     MatFormFieldModule,
     MatInputModule,
-    FormsModule
+    FormsModule,
+    MatTableModule
 
   ],
   providers: [],

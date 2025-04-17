@@ -1,8 +1,8 @@
 export interface Fornecedor{
 
 id?: number
-razaoSocial: string
 nomeFantasia: string
+razaoSocial: string
 cnpj:string
 
 }
